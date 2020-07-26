@@ -23,7 +23,6 @@ final class Remote: ObservableObject {
                 DispatchQueue.main.async {
                     do {
                         self.photos = try JSONDecoder().decode([Photo].self, from: data)
-                        
                     } catch {
                         print(error.localizedDescription)
                     }
