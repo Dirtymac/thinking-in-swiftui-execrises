@@ -15,7 +15,7 @@ Sharing my reading notes while reading [《Thinking in SwiftUI》](https://www.o
 
 - 🔨[View Update ](https://github.com/Dirtymac/thinking-in-swiftui-exercises/tree/master/Chapter2-View%20Update)
 
-- 🍀[Environment ]()
+- 🍀[Environment ](https://github.com/Dirtymac/thinking-in-swiftui-exercises/tree/master/Chapter3-Environment)
 
 - 🕹Layout(TBU)
 
