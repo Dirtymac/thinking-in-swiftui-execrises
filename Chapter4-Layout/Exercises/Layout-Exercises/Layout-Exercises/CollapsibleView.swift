@@ -27,3 +27,12 @@ struct Collapsible<Element, Content: View>: View {
             .frame(width: showExpended ? nil : 10, alignment: Alignment(horizontal: .leading, vertical: .center))
     }
 }
+
+struct ContentView: View {
+    var body: some View {
+        Text("Hello")
+            .padding(10)
+            .background(Color.gray)
+            .badge(count: 5)
+    }
+}
