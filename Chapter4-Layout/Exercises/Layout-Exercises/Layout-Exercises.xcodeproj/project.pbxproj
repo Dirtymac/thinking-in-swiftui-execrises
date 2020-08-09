@@ -101,14 +101,13 @@
 		5FF25DDB24DFB81B00D9CFC2 /* Layout-Exercises */ = {
 			isa = PBXGroup;
 			children = (
+				5FF25E0E24DFCB9400D9CFC2 /* View */,
 				5FF25DDC24DFB81B00D9CFC2 /* AppDelegate.swift */,
 				5FF25DDE24DFB81B00D9CFC2 /* SceneDelegate.swift */,
-				5FF25DE024DFB81B00D9CFC2 /* ContentView.swift */,
 				5FF25DE224DFB81C00D9CFC2 /* Assets.xcassets */,
 				5FF25DE724DFB81C00D9CFC2 /* LaunchScreen.storyboard */,
 				5FF25DEA24DFB81C00D9CFC2 /* Info.plist */,
 				5FF25DE424DFB81C00D9CFC2 /* Preview Content */,
-				5FF25E0C24DFB9EE00D9CFC2 /* CollapsibleView.swift */,
 			);
 			path = "Layout-Exercises";
 			sourceTree = "<group>";
@@ -137,6 +136,15 @@
 				5FF25E0024DFB81C00D9CFC2 /* Info.plist */,
 			);
 			path = "Layout-ExercisesUITests";
+			sourceTree = "<group>";
+		};
+		5FF25E0E24DFCB9400D9CFC2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5FF25DE024DFB81B00D9CFC2 /* ContentView.swift */,
+				5FF25E0C24DFB9EE00D9CFC2 /* CollapsibleView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
