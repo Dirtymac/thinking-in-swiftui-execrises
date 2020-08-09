@@ -16,6 +16,7 @@
 		5FF25DF424DFB81C00D9CFC2 /* Layout_ExercisesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF25DF324DFB81C00D9CFC2 /* Layout_ExercisesTests.swift */; };
 		5FF25DFF24DFB81C00D9CFC2 /* Layout_ExercisesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF25DFE24DFB81C00D9CFC2 /* Layout_ExercisesUITests.swift */; };
 		5FF25E0D24DFB9EE00D9CFC2 /* CollapsibleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF25E0C24DFB9EE00D9CFC2 /* CollapsibleView.swift */; };
+		5FF25E1024DFCC1900D9CFC2 /* BadgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FF25E0F24DFCC1900D9CFC2 /* BadgeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		5FF25DFE24DFB81C00D9CFC2 /* Layout_ExercisesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Layout_ExercisesUITests.swift; sourceTree = "<group>"; };
 		5FF25E0024DFB81C00D9CFC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5FF25E0C24DFB9EE00D9CFC2 /* CollapsibleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapsibleView.swift; sourceTree = "<group>"; };
+		5FF25E0F24DFCC1900D9CFC2 /* BadgeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +145,7 @@
 			children = (
 				5FF25DE024DFB81B00D9CFC2 /* ContentView.swift */,
 				5FF25E0C24DFB9EE00D9CFC2 /* CollapsibleView.swift */,
+				5FF25E0F24DFCC1900D9CFC2 /* BadgeView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -279,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5FF25DDD24DFB81B00D9CFC2 /* AppDelegate.swift in Sources */,
+				5FF25E1024DFCC1900D9CFC2 /* BadgeView.swift in Sources */,
 				5FF25E0D24DFB9EE00D9CFC2 /* CollapsibleView.swift in Sources */,
 				5FF25DDF24DFB81B00D9CFC2 /* SceneDelegate.swift in Sources */,
 				5FF25DE124DFB81B00D9CFC2 /* ContentView.swift in Sources */,

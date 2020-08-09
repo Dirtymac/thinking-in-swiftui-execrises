@@ -24,6 +24,11 @@ struct ContentView: View {
                 self.expanded.toggle() } }, label: {
                     Text(self.expanded ? "Collapse" : "Expand")
             })
+            
+            Text("Hello")
+                .padding(10)
+                .background(Color.gray)
+                .badge(count: 5, frame: CGSize(width: 24, height: 24))
         }
     }
 }
